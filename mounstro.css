@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+}
+main{
+    /* width: 150px; */
+    height: 2479px;
+}
+.container-fluid{
+    margin-left: 10px;
+}
+.caja1{
+    height: 644px;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+#imagencaja1{
+    height: 645px;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+}
+
+.textos{
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textogrande{
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    display: flex;
+}
+
+#text1{
+    font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.9em;
+    display: block;
+    /* margin-top: -2px; */
+}
+
+.botonquien{
+    border-width: 10px!important;
+    text-decoration: none;
+    border-color: #dca57d;
+    border-radius: 0px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif!important;
+    text-transform: uppercase!important;
+    background-color: #dca57d;
+    color: white;
+    padding: 0.9em 1em!important;
+}
+#espacio{
+    margin-bottom: 58px;
+    margin-block-start: 18px;
+}
+
+#down{
+    background-color: transparent !important;
+    position: relative;
+    top: 201px;
+    border-bottom-color: transparent;
+    margin-left: 47%;
+}
+
+/*-----------------FIN CAJA 1 ---------------------*/
+#caja2{
+    display: flex;
+    height: 459px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#imagencaja2{
+    height: 495px;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 36px;
+    /* justify-content: center; */
+    position: absolute;
+}
+
+#textocaja2{
+    font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    line-height: 1.9em;
+    position: relative;
+    margin-top: 27px;
+    top: -3px;
+    max-width: 569px;
+    padding: 1px 153px 74px 196x;
+}
+
+#subir{
+    margin-top: -28px;
+    /* top: 83px; */
+    color: white;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+/* FIN TEXTO 2 */
+
+#caja3{
+    height: 475px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#texto3{
+    font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    display: flex;
+    max-width: 657px;
+    flex-direction: column;
+    white-space: pre-line;
+    align-items: center;
+    text-align: center;
+    /* border-spacing: 71px; */
+    line-height: 1.8em;
+}
+
+#textocaja3{
+    color: white;
+    /* border-spacing: 49px; */
+}
+
+/* FIN CAJA 3 */
+
+
+#musica{
+    height: 430px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+#imagencaja4{
+    height: auto;
+    width: auto;
+    max-width: 635px;
+    min-width: 300px;
+    /* background-color: black; */
+}
+#letra{
+    font-size: 55px;
+    color: black;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.mitad{height: 100%;width: 50%;background-color: black;}
+
+#sonidos{
+    display: flex;
+    flex-direction: column;
+    /* top: 49px; */
+}
+.card{
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#imagencaja5{
+    height: auto;
+    width: auto;
+    max-width: 639px;
+    min-width: 300px;
+    margin-top: -458px;
+    background-color: black;
+}
+
+#formulario{
+    /* top: 382px; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    margin-right: 50%;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 493px;
+    /* margin-left: -3%; */
+    justify-content: center;
+}
+
+.input-group mb-2{
+    width: 10px;
+    height: 10px;
+}
+
+#textocaja5{
+    font-family: 'Nunito',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 16px;
+    /* max-width: 394px; */
+}
+
+#letra2{
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+        font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    
+}
+
+
+.btn btn-primary{
+    background-color: black;
+    color: blue;
+    
+}
+footer{
+    background-color: rgb(87, 84, 84);
+    color: aliceblue;
+    display: flex;
+    margin-top: 2px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 110px;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+}
+#dividir{
+    float: left;
+    width: 50%;
+}
+
+#git{
+    /* display: inline-block; */
+    /* position: relative; */
+    /* color: #666; */
+    /* font-size: 24px; */
+    /* text-align: center; */
+    /* text-decoration: none; */
+    margin-right: 170px;
+    /* transition: color .3s ease 0s; */
+    background-image:url(imagenes/github.png);
+    width: 64px;
+    height: 64px;
+}
+
+#wsp{
+    display: -ms-flexbox;
+    /* display: -webkit-flex; */
+    /* display: flex; */
+    position: fixed;
+    border: transparent;
+    /* z-index: 2; */
+    border-block-color: transparent;
+    background-color: transparent;
+    bottom: 73px;
+    right: 32px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 0px;
+}
+
+@media (max-width: 767px){
+    main{
+        max-width: 100%;
+        max-height: 96%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+      width: auto;
+     height: auto;
+    }
+}
